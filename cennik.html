@@ -31,7 +31,7 @@
 <body>
 <!--
 THESIS: Klasyczny, jasny serwis producenta domów: zdjęcie domu i cena z kontekstem w pierwszym ekranie; odmawia ciemnego banera-wizytówki bez treści (dom90.com v1).
-OWN-WORLD: chłodna złamana biel #f4f4f1, grafit #1b1d20 jako tekst i pola kontrastowe, pomarańcz DOM90 #ec6608 wyłącznie na akcjach i cenach; Archivo szerokie 800 w nagłówkach, Hanken Grotesk w treści; duże zdjęcia z zaokrągleniem 14px, białe karty bez cieni-aureoli.
+OWN-WORLD: chłodna złamana biel #f4f4f1, grafit #1b1d20 jako tekst i pola kontrastowe, pomarańcz DOM90 #ec6608 na akcjach, cenach i polu „cena końcowa”, w tekście ciemniejszy #d95a00 (jeden akcent w H1); Archivo szerokie 800 w nagłówkach, Hanken Grotesk w treści; duże zdjęcia z zaokrągleniem 14px, białe karty bez cieni-aureoli.
 STORY: Odwiedzający rozumie: stalowy dom, 3 800 / 4 300 zł/m², 10 tygodni; wierzy dzięki stali, przekrojom, realizacji i cenie finalnej; dzwoni, pisze na WhatsApp lub liczy dom w konfiguratorze.
 FIRST VIEWPORT: lewa kolumna H1 + dwie ceny obok siebie + przyciski Policz cenę / Zadzwoń; prawa: duże zdjęcie realizacji; mobile: zdjęcie pod nagłówkiem, dolny pasek akcji.
 FORM: kanon branżowy (wyjście standardowe wybrane przez użytkownika), seed df804fa4.
@@ -113,15 +113,15 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <p class="lead">Obie ceny są brutto i liczone za metr kwadratowy powierzchni domu. Sprawdź, ile kosztuje przykładowy metraż.</p>
     </div>
     <div class="metraz" role="group" aria-label="Przykładowy metraż domu" data-metraz>
-      <button type="button" data-m="50" aria-pressed="false">50 m²</button>
-      <button type="button" data-m="70" aria-pressed="true">70 m²</button>
-      <button type="button" data-m="100" aria-pressed="false">100 m²</button>
+      <button type="button" data-m="50" aria-pressed="false">50&nbsp;m²</button>
+      <button type="button" data-m="70" aria-pressed="true">70&nbsp;m²</button>
+      <button type="button" data-m="100" aria-pressed="false">100&nbsp;m²</button>
     </div>
     <div class="standards">
       <article class="standard">
         <h3 class="h3">Do własnej aranżacji</h3>
-        <div class="standard__rate">3 800<small>zł/m² brutto</small></div>
-        <div class="standard__total" data-rate="3800"><span>Dom <span data-area>70</span> m²</span><strong data-total>266 000 zł</strong></div>
+        <div class="standard__rate">3&nbsp;800<small>zł/m² brutto</small></div>
+        <div class="standard__total" data-rate="3800"><span>Dom <span data-area>70</span> m²</span><strong data-total>266&nbsp;000&nbsp;zł</strong></div>
         <ul class="checklist">
           <li><svg class="i"><use href="#i-check"/></svg>Ściany z płyty g-k, gotowe do aranżacji</li>
           <li><svg class="i"><use href="#i-check"/></svg>Wyjścia na instalacje i pełne okablowanie</li>
@@ -130,9 +130,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
         </ul>
       </article>
       <article class="standard standard--featured">
-        <div class="standard__top"><h3 class="h3">Pod klucz</h3><span class="badge">Najczęściej wybierany</span></div>
-        <div class="standard__rate">4 300<small>zł/m² brutto</small></div>
-        <div class="standard__total" data-rate="4300"><span>Dom <span data-area>70</span> m²</span><strong data-total>301 000 zł</strong></div>
+        <div class="standard__top"><h3 class="h3">Pod klucz</h3><span class="badge">Najpopularniejszy</span></div>
+        <div class="standard__rate">4&nbsp;300<small>zł/m² brutto</small></div>
+        <div class="standard__total" data-rate="4300"><span>Dom <span data-area>70</span> m²</span><strong data-total>301&nbsp;000&nbsp;zł</strong></div>
         <ul class="checklist">
           <li><svg class="i"><use href="#i-check"/></svg>Pełne wykończenie ścian i podłóg</li>
           <li><svg class="i"><use href="#i-check"/></svg>Ogrzewanie podłogowe i rekuperacja</li>
@@ -152,10 +152,10 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     </div>
     <ul class="checklist full-list">
       <li><svg class="i"><use href="#i-check"/></svg>Projekt indywidualny, konstruktor i pełne prowadzenie formalności budowlanych</li>
-      <li><svg class="i"><use href="#i-check"/></svg>Konstrukcja stalowa malowana natryskowo — rurokwadraty 100 × 100 × 4 mm</li>
-      <li><svg class="i"><use href="#i-check"/></svg>Izolacja: wełna mineralna 25 lub 35 cm, znacznie powyżej wymagań Warunków Technicznych 2021</li>
+      <li><svg class="i"><use href="#i-check"/></svg>Konstrukcja stalowa malowana natryskowo — rurokwadraty 100 × 100 × 4&nbsp;mm</li>
+      <li><svg class="i"><use href="#i-check"/></svg>Izolacja: wełna mineralna 25 lub 35&nbsp;cm, znacznie powyżej wymagań Warunków Technicznych 2021</li>
       <li><svg class="i"><use href="#i-check"/></svg>Okna trzyszybowe (standardowo antracyt; biały, złoty dąb i inne kolory na zamówienie)</li>
-      <li><svg class="i"><use href="#i-check"/></svg>Elewacja: płyta Siniat w dowolnym kolorze; deska lub dekory elewacyjne od 90 zł/m²</li>
+      <li><svg class="i"><use href="#i-check"/></svg>Elewacja: płyta Siniat w dowolnym kolorze; deska lub dekory elewacyjne od 90&nbsp;zł/m²</li>
       <li><svg class="i"><use href="#i-check"/></svg>Dach: pokrycie do ustalenia z projektantem</li>
       <li><svg class="i"><use href="#i-check"/></svg>Ogrzewanie podłogowe wodne z kotłem elektrycznym lub elektryczne (system Termofol)</li>
       <li><svg class="i"><use href="#i-check"/></svg>Wentylacja mechaniczna z rekuperacją</li>
@@ -167,8 +167,8 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <li><svg class="i"><use href="#i-check"/></svg>Umeblowana sypialnia (łóżko) i salon (kanapa, stół z krzesłami)</li>
       <li><svg class="i"><use href="#i-check"/></svg>Drzwi wewnętrzne i zewnętrzne</li>
       <li><svg class="i"><use href="#i-check"/></svg>Fundament z bloczków betonowych</li>
-      <li><svg class="i"><use href="#i-check"/></svg>Gwarancja konstrukcji 30 lat</li>
-      <li><svg class="i"><use href="#i-check"/></svg>Realizacja ok. 10 tygodni od pozwolenia na budowę lub braku sprzeciwu na zgłoszenie</li>
+      <li><svg class="i"><use href="#i-check"/></svg>Gwarancja konstrukcji 30&nbsp;lat</li>
+      <li><svg class="i"><use href="#i-check"/></svg>Realizacja ok. 10&nbsp;tygodni od pozwolenia na budowę lub braku sprzeciwu na zgłoszenie</li>
     </ul>
   </div>
 </section>
@@ -177,27 +177,27 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap">
     <div class="section-head section-head--split">
       <h2 class="h2">Przykładowe ceny całego domu.</h2>
-      <p class="lead">Najczęściej wybierane metraże. Kwoty brutto, z transportem do 150 km i montażem.</p>
+      <p class="lead">Najczęściej wybierane metraże. Kwoty brutto, z transportem do 150&nbsp;km i montażem.</p>
     </div>
     <div class="table-scroll">
       <table class="examples">
         <thead><tr><th scope="col">Metraż</th><th scope="col">Do własnej aranżacji</th><th scope="col">Pod klucz</th><th scope="col"><span class="sr-only">Akcja</span></th></tr></thead>
         <tbody>
-          <tr><td>50 m²</td><td>190 000 zł</td><td>215 000 zł</td><td><a class="link-arrow" href="?m=50#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
-          <tr><td>70 m²</td><td>266 000 zł</td><td>301 000 zł</td><td><a class="link-arrow" href="?m=70#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
-          <tr><td>100 m²</td><td>380 000 zł</td><td>430 000 zł</td><td><a class="link-arrow" href="?m=100#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
+          <tr><td>50&nbsp;m²</td><td>190&nbsp;000&nbsp;zł</td><td>215&nbsp;000&nbsp;zł</td><td><a class="link-arrow" href="?m=50#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
+          <tr><td>70&nbsp;m²</td><td>266&nbsp;000&nbsp;zł</td><td>301&nbsp;000&nbsp;zł</td><td><a class="link-arrow" href="?m=70#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
+          <tr><td>100&nbsp;m²</td><td>380&nbsp;000&nbsp;zł</td><td>430&nbsp;000&nbsp;zł</td><td><a class="link-arrow" href="?m=100#konfigurator">Policz<svg class="i"><use href="#i-arrow"/></svg></a></td></tr>
         </tbody>
       </table>
     </div>
 
     <h3 class="h3" style="margin:56px 0 20px">Dodatki i rozszerzenia</h3>
     <div class="addons">
-      <div class="addon"><b>Antresola</b><strong>2 200 zł/m²</strong></div>
-      <div class="addon"><b>Poddasze użytkowe</b><strong>3 900 zł/m²</strong></div>
-      <div class="addon"><b>Sanitariaty i budynki użytkowe</b><strong>od 2 700 zł/m²</strong></div>
-      <div class="addon"><b>Płyta fundamentowa</b><strong>do 12 000 zł</strong></div>
-      <div class="addon"><b>Deska lub dekory elewacyjne</b><strong>od 90 zł/m²</strong></div>
-      <div class="addon"><b>Leasing firmowy, wersja pod klucz</b><strong>4 444 zł/m²</strong></div>
+      <div class="addon"><b>Antresola</b><strong>2&nbsp;200&nbsp;zł/m²</strong></div>
+      <div class="addon"><b>Poddasze użytkowe</b><strong>3&nbsp;900&nbsp;zł/m²</strong></div>
+      <div class="addon"><b>Sanitariaty i budynki użytkowe</b><strong>od 2&nbsp;700&nbsp;zł/m²</strong></div>
+      <div class="addon"><b>Płyta fundamentowa</b><strong>do 12&nbsp;000&nbsp;zł</strong></div>
+      <div class="addon"><b>Deska lub dekory elewacyjne</b><strong>od 90&nbsp;zł/m²</strong></div>
+      <div class="addon"><b>Leasing firmowy, wersja pod klucz</b><strong>zapytaj o stawkę</strong></div>
     </div>
   </div>
 </section>
@@ -214,16 +214,16 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <label for="area">Metraż domu</label>
           <div class="range-row">
             <input type="range" id="area" name="area" min="20" max="300" step="5" value="70">
-            <output id="area-out" for="area">70 m²</output>
+            <output id="area-out" for="area">70&nbsp;m²</output>
           </div>
-          <div class="range-scale"><span>20 m²</span><span>300 m²</span></div>
+          <div class="range-scale"><span>20&nbsp;m²</span><span>300&nbsp;m²</span></div>
         </div>
 
         <fieldset class="field">
           <legend>Standard wykończenia</legend>
           <div class="choice-grid choice-grid--2">
-            <label class="choice"><input type="radio" name="standard" value="klucz" checked><b>Pod klucz · 4 300 zł/m²</b><span>Pełne wykończenie, meble i AGD.</span></label>
-            <label class="choice"><input type="radio" name="standard" value="aranzacja"><b>Do własnej aranżacji · 3 800 zł/m²</b><span>Płyta g-k, instalacje i okablowanie.</span></label>
+            <label class="choice"><input type="radio" name="standard" value="klucz" checked><b>Pod klucz · 4&nbsp;300&nbsp;zł/m²</b><span>Pełne wykończenie, meble i AGD.</span></label>
+            <label class="choice"><input type="radio" name="standard" value="aranzacja"><b>Do własnej aranżacji · 3&nbsp;800&nbsp;zł/m²</b><span>Płyta g-k, instalacje i okablowanie.</span></label>
           </div>
         </fieldset>
 
@@ -232,7 +232,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <div class="choice-grid choice-grid--3">
             <label class="choice"><input type="radio" name="bedrooms" value="1"><b>1 sypialnia</b></label>
             <label class="choice"><input type="radio" name="bedrooms" value="2" checked><b>2 sypialnie</b></label>
-            <label class="choice"><input type="radio" name="bedrooms" value="3"><b>3 sypialnie</b><span>od 70 m²</span></label>
+            <label class="choice"><input type="radio" name="bedrooms" value="3"><b>3 sypialnie</b><span>od 70&nbsp;m²</span></label>
           </div>
         </fieldset>
 
@@ -240,13 +240,13 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
           <div class="field">
             <label for="distance">Odległość działki od fabryki</label>
             <input class="input" type="number" id="distance" name="distance" min="0" max="2000" step="10" value="100" inputmode="numeric">
-            <span class="field__hint">W km od Serok-Parceli. Do 150 km w cenie, dalej 10 zł/km.</span>
+            <span class="field__hint">W km od Serok-Parceli. Do 150&nbsp;km w cenie, dalej 10&nbsp;zł/km.</span>
           </div>
           <fieldset class="field">
             <legend>Płyta fundamentowa</legend>
             <div class="choice-grid choice-grid--2">
               <label class="choice"><input type="radio" name="plyta" value="nie" checked><b>Nie</b></label>
-              <label class="choice"><input type="radio" name="plyta" value="tak"><b>Tak</b><span>do 12 000 zł</span></label>
+              <label class="choice"><input type="radio" name="plyta" value="tak"><b>Tak</b><span>do 12&nbsp;000&nbsp;zł</span></label>
             </div>
           </fieldset>
         </div>
@@ -304,10 +304,10 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
       <aside class="config__result" aria-live="polite">
         <span class="label">Szacunkowa cena brutto</span>
-        <div class="config__price" data-price>301 000 zł</div>
-        <p class="config__summary" data-summary>70 m² · Pod klucz · 2 sypialnie</p>
+        <div class="config__price" data-price>301&nbsp;000&nbsp;zł</div>
+        <p class="config__summary" data-summary>70&nbsp;m² · Pod klucz · 2 sypialnie</p>
         <ul class="config__lines" data-lines></ul>
-        <a class="btn btn--primary btn--block" href="tel:+48574742292"><svg class="i"><use href="#i-phone"/></svg>Omów wycenę: 574 742 292</a>
+        <a class="btn btn--primary btn--block" href="tel:+48574742292"><svg class="i"><use href="#i-phone"/></svg>Omów wycenę: 574&nbsp;742 292</a>
         <p class="config__disclaimer">Wycena ma charakter orientacyjny i nie jest ofertą handlową. Finalna cena zależy od projektu, działki, zakresu prac i warunków umowy.</p>
       </aside>
     </div>
@@ -319,9 +319,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <div class="section-head"><h2 class="h2">Ty podpisujesz. My dowozimy.</h2></div>
     <div class="terms">
       <div class="fact"><svg class="i"><use href="#i-doc"/></svg><span class="fact__value">50 + 50%</span><p class="fact__text"><strong>płatność w dwóch ratach</strong>Przy umowie i przy odbiorze domu.</p></div>
-      <div class="fact"><svg class="i"><use href="#i-calendar"/></svg><span class="fact__value">~10 tyg.</span><p class="fact__text"><strong>od umowy do kluczy</strong>W tym 6 tygodni produkcji.</p></div>
-      <div class="fact"><svg class="i"><use href="#i-crane"/></svg><span class="fact__value">1 dzień</span><p class="fact__text"><strong>montaż modułów</strong>Na przygotowanym fundamencie.</p></div>
-      <div class="fact"><svg class="i"><use href="#i-shield"/></svg><span class="fact__value">30 lat</span><p class="fact__text"><strong>gwarancji na konstrukcję</strong>5 lat instalacje, 2 lata wyposażenie.</p></div>
+      <div class="fact"><svg class="i"><use href="#i-calendar"/></svg><span class="fact__value">~10&nbsp;tyg.</span><p class="fact__text"><strong>od pozwolenia do kluczy</strong>W tym 6&nbsp;tygodni produkcji.</p></div>
+      <div class="fact"><svg class="i"><use href="#i-crane"/></svg><span class="fact__value">1&nbsp;dzień</span><p class="fact__text"><strong>montaż modułów</strong>Na przygotowanym fundamencie.</p></div>
+      <div class="fact"><svg class="i"><use href="#i-shield"/></svg><span class="fact__value">30&nbsp;lat</span><p class="fact__text"><strong>gwarancji na konstrukcję</strong>5&nbsp;lat instalacje, 2&nbsp;lata wyposażenie.</p></div>
     </div>
   </div>
 </section>
