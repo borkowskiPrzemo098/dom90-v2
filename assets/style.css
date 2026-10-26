@@ -562,3 +562,9 @@ textarea.input { min-height: 110px; resize: vertical; }
 @media (max-width: 400px) {
   .facts { grid-template-columns: 1fr; }
 }
+@media (max-width: 960px) {
+  /* Pasek przeglądarki na telefonie zasłaniał dół menu — wysokość z dvh i zapas na safe-area */
+  .nav { bottom: auto; height: calc(100vh - var(--header-h)); height: calc(100dvh - var(--header-h)); padding-bottom: calc(48px + env(safe-area-inset-bottom)); overscroll-behavior: contain; }
+  .nav a { padding: 13px 0; }
+  .nav__mobile-cta { margin-top: 20px; }
+}
