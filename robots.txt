@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dom90.com/sitemap.xml
